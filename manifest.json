@@ -9,7 +9,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.mozilla.org/*"],
+      "matches": ["http://192.168.0.1/userRpm/SystemStatisticRpm.htm*"],
       "js": ["RouterAddStatisticsUnit.js"]
     }
   ]
