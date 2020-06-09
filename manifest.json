@@ -1,0 +1,17 @@
+{
+
+  "description": "Adds unit in router statistic page (192.168.0.1)",
+  "manifest_version": 2,
+  "name": "RouterAddStatisticsUnit",
+  "version": "0.1",
+  "homepage_url": "https://github.com/DominikSucharski/RouterAddStatisticsUnit",
+  "icons": { },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["RouterAddStatisticsUnit.js"]
+    }
+  ]
+
+}
