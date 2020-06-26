@@ -1,3 +1,5 @@
+// Liczba bajtów to zmienna 32 bitowa bez znaku. Maksymalna wartość to 4 294 967 295‬ bajtów (~4.29 GB)
+// Po przekroczeniu zakresu następuje wyzerowanie wartości.
 setTimeout(() => { TimeoutHelper(); }, 1000 );
 
 function TimeoutHelper() {	
